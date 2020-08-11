@@ -13,7 +13,8 @@ namespace GenericDelegate_practice_01
         {
             newDelegate newDelegate = add;
             newDelegate("asad",17);
-            Console.WriteLine("-----dd--");
+           Task.Delay(5000).Wait();
+            Console.WriteLine("----- 5second delayed--");
             Console.ReadKey();
 
          }
